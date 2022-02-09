@@ -1,0 +1,61 @@
+==== T290719: Matching statements with properties and its values on Wikipedia articles ====
+
+===== Properties that match with statements on articles: =====
+* {{P|P31}}: [[:en:Lhasa Tibetan]] is a {{Q|Q34770}} in the article
+* {{P|P282}}: [[:en:Lhasa Tibetan]] is {{Q|Q46861}} in the infobox
+* {{P|P18}}: [[:es:Bristol]] has [[:File:Bristol landmarks collage.png]] at the top of the article
+* {{P|P625}}: [[:es:Bristol]] is {{Coord|57|27|0|N|2|35|0|W|display=title}} at the top of the article
+* {{P|P18}}: [[:es:El apóstol (película de 1917)]] has [[:File:Quirino Cristiani con una figura.jpg]] at the top of the article
+* {{P|P793}}: [[:es:El apóstol (película de 1917)]] is a {{Q|Q1268687}} in the article
+* {{P|P279}}: [[:en:Chinese animation]] is an {{Q|Q202866}} in the article
+* {{P|P17}}: [[:en:Chinese animation]] is {{Q|Q148}} in the article
+* {{P|P279}}: [[:es:Obsolescencia programada]] is a {{Q|Q462877}} in the article
+* {{P|P2868}}: [[:es:Obsolescencia programada]] of {{Q|Q1377422}} in the article
+* {{P|P8111}}: [[:es:Frecuencia]] is {{Q|Q39369}} in the article
+* {{P|P1269}}: [[:es:Frecuencia]] is {{Q|Q18699055}} in the article
+* {{P|P112}}: [[:es:Escuela de la Bauhaus]] is {{Q|Q61071}} in the article
+* {{P|P17}}: [[:es:Escuela de la Bauhaus]] is {{Q|Q183}} in the article
+* {{P|P136}}: [[:es:Manicomio (película)]] is {{Q|Q157443}} in the infobox
+* {{P|P364}}: [[:es:Manicomio (película)]] is {{Q|Q1321}} in the infobox
+* {{P|P462}}: [[:es:Manicomio (película)]] is {{Q|Q838368}} in the categories
+* {{P|P57}}: [[:es:Le Livre d'image]] is {{Q|Q53001}} in the infobox
+* {{P|P31}}: [[:es:Le Livre d'image]] is {{Q|Q11424}} in the article
+<br>
+===== Properties with qualifier values: =====
+
+This property:
+* {{P|P3092}}: [[:es:El apóstol (película de 1917)]] is {{Q|Q66493877}} 
+has the following property added: <br>
+- {{P|P3831}}: ---> {{Q|Q1062952}} 
+<br><br>
+
+This property:
+* {{P|P577}}: [[:es:Le Livre d'image]] is 4 April 2019
+has the following property added: <br>
+- {{P|P291}} is {{Q|Q183}}
+<br><br>
+
+===== Properties that are on the Wikidata items but does not appear on the articles: =====
+
+<br>
+* {{P|P18}}: [[:en:Chinese animation]] has [[:File:Princessironfan.jpg]]
+* {{P|P154}}: [[:es:Escuela de la Bauhaus]] has [[:File:Bauhaus logo.png]]
+* {{P|P443}}: [[:es:Bristol]] has [[:File:En-uk-Bristol.ogg]]
+<br>
+
+===== New properties added to Wikidata items: =====
+
+* {{P|P18}}: [[:es:El apóstol (película de 1917)]] has now [[:File:El Apostol early caricature of President Yrigoyen.png]]
+<br>
+
+===== Wikipedia articles used for this task (T290719): =====
+
+https://en.wikipedia.org/wiki/Lhasa_Tibetan<br>
+https://es.wikipedia.org/wiki/Bristol<br>
+https://es.wikipedia.org/wiki/El_ap%C3%B3stol_(pel%C3%ADcula_de_1917)<br>
+https://en.wikipedia.org/wiki/Chinese_animation<br>
+https://es.wikipedia.org/wiki/Obsolescencia_programada<br>
+https://es.wikipedia.org/wiki/Frecuencia<br>
+https://es.wikipedia.org/wiki/Escuela_de_la_Bauhaus<br>
+https://es.wikipedia.org/wiki/Manicomio_(pel%C3%ADcula)<br>
+https://es.wikipedia.org/wiki/Le_Livre_d%27image
