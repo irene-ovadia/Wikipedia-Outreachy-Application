@@ -3,7 +3,7 @@ Outreachy Final Application 2021
 
 Your past experience with this free software community and project:
 
-I found out about the Outreachy internships thanks to a Twitter user - @iamdoomling who is a designer and programmer- who recommended them in August 2021. I was interested in knowing more about this community and I started to inform myself exhaustively through all the documentation offered by the Outreachy website, the Applicant Guide, the documentation about open source projects and all the links that I found of different advices and experiences of various interns of this program, reflected in the blogs created by them. After having read everything I didn’t hesitate to apply to Outreachy.
+I found out about the Outreachy internships thanks to a Twitter user - @iamdoomling - who recommended them in August 2021. I was interested in knowing more about this community and I started to inform myself exhaustively through all the documentation offered by the Outreachy website, the Applicant Guide, the documentation about open source projects and all the links that I found of different advices and experiences of various interns of this program, reflected in the blogs created by them. After having read everything I didn’t hesitate to apply to Outreachy.
 
 Your past experience with other free software communities:
 
