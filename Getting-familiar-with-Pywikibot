@@ -1,0 +1,66 @@
+Wikidata page: https://www.wikidata.org/wiki/User:Irene_Ovadia/Outreachy_2
+
+
+=== T290720: Getting familiar with Pywikibot ===
+
+After installing, configuring Pywikibot, and login in, enter through the Python interpreter:
+
+  # Import Pywikibot and modules:
+  
+  import pywikibot
+  from pywikibot import pagegenerators
+    
+    
+  # Load the 'Outreachy 1' page:
+  
+  site = pywikibot.Site("wikidata", "wikidata")
+  page = pywikibot.Page(site, u"User:Irene_Ovadia/Outreachy_1")
+    
+    
+  # Set up a script to print it on the Wikidata page:
+  
+  text = page.text
+  page.text = text + u"\n \nHello! This is my first script with Pywikibot"
+  page.save(u"Edit comment")
+  print(text)
+    
+    
+  # Access to a Wikidata item:
+  
+  site = pywikibot.Site("wikidata", "wikidata")
+  repo = site.data_repository()
+  item = pywikibot.ItemPage(repo, "Q4115189")
+    
+    
+ # Get information from it, here we get a dictionary:
+ 
+  item_dict = item.get()
+  clm_dict = item_dict["claims"]
+  print(clm_dict)
+    
+    
+  # Add properties and values to the item:
+    
+  claim = pywikibot.Claim(repo, u'P793')
+  target = pywikibot.ItemPage(repo, u"Q1268687")
+  claim.setTarget(target)
+ 
+  item.addClaim(claim, summary=u'Adding claim to Q4115189')
+    
+  # Sandbox item has now property of 'significant event' (P793) with value 'lost film' (Q1268687): https://www.wikidata.org/w/index.php?title=Q4115189&oldid=1519313550
+  
+  coordinateclaim  = pywikibot.Claim(repo, u'P625')
+  coordinate = pywikibot.Coordinate(lat=51.45, lon=-2.583333, precision=0.001, site=site)
+  coordinateclaim.setTarget(coordinate)
+  item.addClaim(coordinateclaim, summary=u'Adding coordinate claim')
+  
+  # Sandbox item has now property of 'coordinate location' (P625) with value '51°27'0"N, 2°34'59"W': https://www.wikidata.org/w/index.php?title=Q4115189&oldid=1519345485
+
+
+<small>'''Sources:''' <br>
+
+- Installing, configuring and running a script with Pywikibot: https://www.mediawiki.org/wiki/Manual:Pywikibot/Installation <br>
+- Importing Pywikibot modules: https://www.mediawiki.org/wiki/Manual:Pywikibot/pagegenerators.py/es <br>
+- Accesing to a wikidata item: https://www.wikidata.org/wiki/Wikidata:Pywikibot_-_Python_3_Tutorial/Data_Harvest <br>
+- Setting statements: https://www.wikidata.org/wiki/Wikidata:Pywikibot_-_Python_3_Tutorial/Setting_statements <br></small>
+
