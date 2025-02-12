@@ -39,4 +39,4 @@ From February 14th to March 4th:
 
 Polish and correct the scripts to finally integrate them into the live code to keep in sync Wikidata and the different language Wikipedias.
 For each stage, document in a blog what has been learned and developed.
-I don't have any other commitments during the internship's period. I have a temporary job right now, it started on September 1st and it ends on November 30th. I work with the online Video Library and with the database of accreditations of the Mar del Plata International Film Festival in Argentina.
+I don't have any other commitments during the internship's period.
